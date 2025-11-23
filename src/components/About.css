@@ -1,0 +1,133 @@
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about-intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 20px;
+  flex-direction: row-reverse;
+}
+
+.about-image-wrapper {
+  flex-shrink: 0;
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+
+.about-profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid #00a8ff;
+  padding: 3px;
+  box-shadow: 0 10px 30px rgba(0, 168, 255, 0.2);
+}
+
+.about-profile-placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  border: 3px solid #00a8ff;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-profile-placeholder i {
+  font-size: 5rem;
+  color: #666;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 800px;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.skills h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.skills-category {
+  margin-bottom: 35px;
+}
+
+.skills-category h4 {
+  font-size: 1.2rem;
+  color: #00a8ff;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 20px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+  transition: all 0.3s ease;
+}
+
+.skill-item:hover {
+  background-color: #2a2a2a;
+  border-color: #00a8ff;
+  transform: translateY(-2px);
+}
+
+.skill-item i {
+  font-size: 1.5rem;
+  color: #00a8ff;
+}
+
+.skill-item span {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .about-intro {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-image-wrapper {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+}
+
