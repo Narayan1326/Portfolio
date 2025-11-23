@@ -16,7 +16,7 @@ const Projects = () => {
       title: 'Quantum Random Number Generator',
       description: 'A Quantum Random Number Generator (QRNG) built using single-qubit measurements to generate true randomness based on quantum mechanics.',
       tech: ['Python', 'Qiskit', 'Quantum Simulator'],
-      demoUrl: '#',
+      demoUrl: 'https://quantum-random-number-generator-ambyadjxyhpfadrvbphb77.streamlit.app',
       viewUrl: 'https://github.com/Narayan1326/Quantum-Random-Number-Generator'
     },
     {
