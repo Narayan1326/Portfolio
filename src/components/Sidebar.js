@@ -39,7 +39,7 @@ const Sidebar = ({ activeSection, onNavClick }) => {
             <i className="fas fa-envelope"></i>
           </a>
           <a 
-            href="https://www.linkedin.com/in/narayan-pandey" 
+            href="https://www.linkedin.com/in/narayan-webdev/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="social-icon" 
@@ -49,7 +49,7 @@ const Sidebar = ({ activeSection, onNavClick }) => {
             <i className="fab fa-linkedin"></i>
           </a>
           <a 
-            href="https://github.com/narayanpandey" 
+            href="https://github.com/Narayan1326" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="social-icon" 
